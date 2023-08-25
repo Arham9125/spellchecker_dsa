@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="NHunspell" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NHunspell" Version="1.2.5554.16953" />
+  </ItemGroup>
 </Project>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arhamkhanmac/Desktop/guessgame/guessgame/guessgame.csproj": {}
+    "/Users/arhamkhanmac/Desktop/spell checker/guessgame/guessgame.csproj": {}
   },
   "projects": {
-    "/Users/arhamkhanmac/Desktop/guessgame/guessgame/guessgame.csproj": {
+    "/Users/arhamkhanmac/Desktop/spell checker/guessgame/guessgame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arhamkhanmac/Desktop/guessgame/guessgame/guessgame.csproj",
+        "projectUniqueName": "/Users/arhamkhanmac/Desktop/spell checker/guessgame/guessgame.csproj",
         "projectName": "guessgame",
-        "projectPath": "/Users/arhamkhanmac/Desktop/guessgame/guessgame/guessgame.csproj",
+        "projectPath": "/Users/arhamkhanmac/Desktop/spell checker/guessgame/guessgame.csproj",
         "packagesPath": "/Users/arhamkhanmac/.nuget/packages/",
-        "outputPath": "/Users/arhamkhanmac/Desktop/guessgame/guessgame/obj/",
+        "outputPath": "/Users/arhamkhanmac/Desktop/spell checker/guessgame/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/arhamkhanmac/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "NHunspell": {
+              "target": "Package",
+              "version": "[1.2.5554.16953, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

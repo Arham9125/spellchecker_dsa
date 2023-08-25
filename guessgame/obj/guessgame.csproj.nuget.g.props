@@ -12,4 +12,7 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/Users/arhamkhanmac/.nuget/packages/" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNHunspell Condition=" '$(PkgNHunspell)' == '' ">/Users/arhamkhanmac/.nuget/packages/nhunspell/1.2.5554.16953</PkgNHunspell>
+  </PropertyGroup>
 </Project>

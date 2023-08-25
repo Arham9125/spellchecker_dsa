@@ -1,11 +1,11 @@
-﻿public class TrieNode
+﻿public class Node
 {
     public bool Terminating { get; set; }
-    public TrieNode[] Children { get; set; }
+    public Node[] Children { get; set; }
 
-    public TrieNode()
+    public Node()
     {
         Terminating = false;
-        Children = new TrieNode[26];
+        Children = new Node[26];
     }
 }
